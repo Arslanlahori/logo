@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Uchen', serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("bg7.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mainheader {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader .logo img {
+    width: 100px;
+    height: 15vh;
+    padding-left: 20px;
+}
+
+
+main .left form {
+    padding: 12%;
+
+}
+
+
+
+.mainheader nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.mainheader nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.btn {
+    padding-right: 60px;
+
+}
+
+.mainheader .btn button {
+    padding: 10px 50px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration-color: azure;
+    background-color: #85bb65;
+    border: none;
+    font-size: 14px;
+}
+
+main .left {
+    padding-left: 100px;
+
+}
+
+.left h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 50%;
+
+}
+
+.left h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 12px 0;
+}
+
+.left p {
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+main {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.left button {
+    background-color: #85bb65;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 2%;
+    font-weight: 100;
+}
+
+.right {
+    padding-right: 60px;
+}
+
+main .right img {
+    width: 350px;
+    height: 60vh;
+    padding-left: 60px;
+    padding-top: 150px;
+    padding-right: 20px;
+}
+
+/* main .left h3 {
+    font-size: 50px;
+    margin-left: 200%;
+    display: flex;
+} 
